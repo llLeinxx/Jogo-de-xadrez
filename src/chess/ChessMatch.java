@@ -22,7 +22,7 @@ public class ChessMatch {
         }
         return mat;
     }
-    public ChessPiece perforrmChessMove(ChessPosition sourcePosition, ChessPosition targerPosition){
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targerPosition){
         Position source = sourcePosition.toPosition();
         Position target = targerPosition.toPosition();
         validateSourcePosition(source);
